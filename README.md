@@ -12,6 +12,13 @@ Split the numbers into halves: a **max**-heap for the lower half and a **min**-h
 
 **Complexity:** Add O(log n), Median O(1), O(n) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
